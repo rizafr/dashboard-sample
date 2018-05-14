@@ -41,10 +41,6 @@ There are 3 API that are provided inside Qiscus Sample Dashboard:
 The Sample Dashboard called these APIs inside index.php file. To use these APIs, you need to pass your APP ID, Secret Key inside file .env.
 > Note: if you need add more api you want, you just adding in the file index.php
 
-You need pass var baseUrl inside main.js:
-
-```var baseUrl = "//localhost:8000"```
-
 To set method and request parameter, you can refer to [Qiscus Server API Documentation](https://www.qiscus.com/documentation/rest/list-api) on “Get User List”, “Update User Profile” and “Login and Register” section.
 
 The Sample Dashboard also provided API for (Android and iOS) client app to get list of users from the Sample Dasboard.
