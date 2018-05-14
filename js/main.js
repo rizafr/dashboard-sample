@@ -2,7 +2,7 @@ $(document).ready(function () {
     var page = 1
         itemsPerPage = 10
         avatar = $('#avatar')
-        baseUrl = '//dashboard-sample.herokuapp.com'
+        baseUrl = window.location.protocol + "//" + window.location.host
 
     getUsers = {
         getDataFromApi: function (page) {
